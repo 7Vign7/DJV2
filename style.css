@@ -1,0 +1,165 @@
+.roboto-mono-<uniquifier> {
+                  font-family: "Roboto Mono", monospace;
+                  font-optical-sizing: auto;
+                  font-weight: <weight>;
+                  font-style: normal;
+              }
+.manrope-<uniquifier> {
+              font-family: "Manrope", sans-serif;
+              font-optical-sizing: auto;
+              font-weight: <weight>;
+              font-style: normal;
+          }
+body {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+}
+.section__picture{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 40%;
+    gap: 5%;
+}
+.section__picture p{
+    font-family: "Manrope";
+    font-weight: 800;
+    font-size: 32px;
+}
+.signature{
+    display: flex;
+    align-items:flex-end;
+}
+.section__picture img{
+    width: 100%;
+}
+.article__text{
+    padding: 4% 12% 0 12%;
+}
+.text__shadow{
+    text-shadow: 0 0 25px #B0745C;
+}
+.didj__top{
+    padding-top: 3%;
+}
+.didj__logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.didj__logo svg{
+    filter: drop-shadow(0 0 25px #EB00FF);
+}
+.titleDidj p{
+    font-family: "Manrope";
+    font-weight: 800;
+    margin: 0;
+    font-size: 32px;
+}
+.titleDidj h1{
+    font-family: "Manrope";
+    font-weight: 800;
+    margin: 0;
+    font-size: 54px;
+}
+blockquote{
+    font-size: 16px;
+    margin: 0;
+    text-align: end;
+}
+section p{
+    font-size: 20px;
+}
+footer{
+    padding: 0;
+}
+.traffic__screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer img{
+    width: 55%;
+}
+footer .traffic__sign{
+    height: 50%;
+}
+.big__screen{
+    display: flex;
+}
+.small__screen{
+    display: none;
+}
+@media (max-width: 1024px) {
+    footer img{
+        width: 70%;
+    }
+    .section__picture p{
+        font-size: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .big__screen{
+        display: none;
+    }
+    .small__screen{
+        display: flex;
+    }
+    .section__picture{
+        display: contents;
+        gap: 0;
+    }
+    .didj__logo{
+        padding: 30px 0;
+    }
+
+}
+@media (max-width: 708px) {
+    .titleDidj h1{
+        font-size: 45px;
+    }
+}
+@media (max-width: 600px) {
+    .titleDidj p{
+        font-size: 20px;
+    }
+    .titleDidj h1{
+        font-size: 35px;
+    }
+    blockquote{
+        font-size: 14px;
+    }
+    section p{
+        font-size: 16px;
+    }
+    /*.didj__logo{*/
+    /*    padding-bottom: 10%;*/
+    /*}*/
+}
+@media (max-width: 547px){
+    .section__picture p {
+        font-size: 22px;
+    }
+}
+@media (max-width: 500px){
+    footer img{
+        width: 75%;
+    }
+    .didj__logo svg{
+        width: 65%;
+    }
+}
+@media (max-width: 460px){
+    .titleDidj h1{
+        font-size: 28px;
+    }
+}
+@media (max-width: 370px){
+    .section__picture p {
+        font-size: 20px;
+    }
+}
+
+
+
+
