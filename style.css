@@ -16,6 +16,9 @@ body {
     color: #000;
     margin: 0;
 }
+li {
+    list-style-type: none;
+}
 .section__picture{
     display: grid;
     grid-auto-flow: column;
@@ -89,6 +92,10 @@ footer .traffic__sign{
 }
 .small__screen{
     display: none;
+}
+.small__screen a{
+    display: flex;
+    justify-content: center;
 }
 @media (max-width: 1024px) {
     footer img{
