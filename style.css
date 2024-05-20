@@ -64,12 +64,9 @@ blockquote p{
     display: flex;
     align-items: center;
 }
-
-}
 .spase {
     padding-top: 50%;
 }
-
 .article__text{
     padding: 4% 12% 0 12%;
 }
