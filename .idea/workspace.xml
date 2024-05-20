@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="953b862a-c476-49b5-aaa6-a9335b6b912d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/winnie_the_pooh 2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
@@ -13,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/index4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index5.html" beforeDir="false" afterPath="$PROJECT_DIR$/index5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <workItem from="1714422382924" duration="4847000" />
       <workItem from="1714727106343" duration="953000" />
       <workItem from="1715590819584" duration="6563000" />
-      <workItem from="1715681305990" duration="14122000" />
+      <workItem from="1715681305990" duration="24930000" />
     </task>
     <servers />
   </component>
