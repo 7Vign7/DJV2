@@ -1,3 +1,37 @@
+const light = document.querySelector("#light")
+const dark =  document.querySelector(`#dark`)
+const button = document.querySelector(`button`)
+const styleMode = localStorage.getItem(`styleMode`)
+button.addEventListener("click", darkAge)
+function darkAge() {
+    document.body.classList.toggle(`darkBody`)
+    if (document.body.className === `darkBody`){
+        light.classList.remove('mama')
+        dark.classList.add('mama')
+        localStorage.setItem(`styleMode`,`dark`)
+    }
+    else{
+        dark.classList.remove('mama')
+        light.classList.add('mama')
+        localStorage.setItem(`styleMode`,null)
+    }
+}
+if (styleMode === `dark`){
+    darkAge()
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // выбираем тип блока; имя; класс; родительский блок, если нужен
 // function block(typeBlock,nameBlock,classBlock,parentBlock){
 //     nameBlock = document.createElement(typeBlock);
