@@ -18,7 +18,11 @@ body {
     transition: .3s;
 }
 .darkBody{
-    background-color: #3b3b3b;
+    background-color: #1D1C1C;
+    color: white;
+    transition: .3s;
+}
+.darkBody a{
     color: white;
     transition: .3s;
 }
@@ -33,6 +37,11 @@ button{
     background: none;
     border: none;
     font-size: 20px;
+    color: black;
+}
+button p{
+    font-size: 20px !important;
+    font-weight: 400 !important;
 }
 li {
     list-style-type: none;
@@ -99,7 +108,8 @@ blockquote p{
     justify-content: space-between;
 }
 .didj__logo svg{
-    filter: drop-shadow(0 0 25px #EB00FF);
+    filter: drop-shadow(0 0 25px #0077ff);
+    transition: 9s;
 }
 .titleDidj p{
     font-family: "Manrope";
