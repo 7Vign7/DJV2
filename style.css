@@ -205,13 +205,16 @@ footer .traffic__sign{
     .section__picture p {
         font-size: 22px;
     }
+    .didj__logo svg{
+        width: 190px;
+    }
+    button p{
+        font-size: 14px !important;
+    }
 }
 @media (max-width: 500px){
     footer img{
         width: 75%;
-    }
-    .didj__logo svg{
-        width: 65%;
     }
 }
 @media (max-width: 460px){
@@ -222,12 +225,20 @@ footer .traffic__sign{
         font-size: 13px;
     }
 }
+@media (max-width: 405px){
+    .didj__logo svg{
+        width: 150px;
+    }
+}
 @media (max-width: 370px){
     blockquote p{
         font-size: 12px;
     }
     .section__picture p {
         font-size: 20px;
+    }
+    .didj__logo svg{
+        width: 125px;
     }
 }
 
