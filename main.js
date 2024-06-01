@@ -24,11 +24,21 @@ function darkAge() {
         localStorage.setItem(`styleMode`,null)
     }
 }
-const oop = "#7FFFD4"
-test.style.filter = `drop-shadow(0 0 25px ${oop}`
+function getRandomColor() {
+    const letters = '0123456789ABCDEF'
+    let color = '#'
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)]
+    }
+    return color;
+}
+setInterval(()=>{
+     test.style.filter = `drop-shadow(0 0 25px ${getRandomColor()})`
+     },8000
+ );
+
 if (styleMode === `dark`){
     darkAge()
-
 }
 
 
