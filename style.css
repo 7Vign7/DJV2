@@ -258,9 +258,6 @@ footer .traffic__sign{
     blockquote p{
         font-size: 13px;
     }
-    .koolDj{
-        background-position: left;
-    }
 }
 @media (max-width: 405px){
     .didj__logo svg{
