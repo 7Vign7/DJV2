@@ -3,7 +3,7 @@ const dark =  document.querySelector(`#dark`)
 const button = document.querySelector(`button`)
 const styleMode = localStorage.getItem(`styleMode`)
 const paths = document.querySelectorAll("svg > path")
-const test = document.querySelector(".didj__logo > svg")
+const test = document.querySelector(".didj__logo > a")
 button.addEventListener("click", darkAge)
 function darkAge() {
     document.body.classList.toggle(`darkBody`)
@@ -25,23 +25,33 @@ function darkAge() {
     }
 }
 function getRandomColor() {
-    const letters = '0123456789ABCDEF'
-    let color = '#'
-    for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)]
+    let color = Math.floor(Math.random() * 247)
+    if (color >= 47){
+        return color;
     }
-    return color;
+    else {
+        return 47;
+    }
 }
+test.style.filter = `drop-shadow(0 0 25px rgb(${getRandomColor()},${getRandomColor()},${getRandomColor()}))`
 setInterval(()=>{
-     test.style.filter = `drop-shadow(0 0 25px ${getRandomColor()})`
-     },8000
+     test.style.filter = `drop-shadow(0 0 25px rgb(${getRandomColor()},${getRandomColor()},${getRandomColor()}))`
+     },9000
  );
+
+
 
 if (styleMode === `dark`){
     darkAge()
 }
-
-
+// function getRandomColor() {
+//     const letters = '0123456789ABCDEF'
+//     let color = '#'
+//     for (var i = 0; i < 6; i++) {
+//         color += letters[Math.floor(Math.random() * 16)]
+//     }
+//     return color;
+// }
 
 
 

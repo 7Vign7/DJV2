@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="953b862a-c476-49b5-aaa6-a9335b6b912d" name="Changes" comment="CollDark)))">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/index4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index5.html" beforeDir="false" afterPath="$PROJECT_DIR$/index5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -64,6 +70,8 @@
       <workItem from="1717087976839" duration="15104000" />
       <workItem from="1717236516099" duration="30000" />
       <workItem from="1717240589449" duration="4312000" />
+      <workItem from="1717484746610" duration="220000" />
+      <workItem from="1717592323654" duration="7553000" />
     </task>
     <task id="LOCAL-00001" summary="CollDark)))">
       <created>1717105828680</created>

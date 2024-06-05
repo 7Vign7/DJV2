@@ -107,9 +107,8 @@ blockquote p{
     display: flex;
     justify-content: space-between;
 }
-.didj__logo svg{
-    filter: drop-shadow(0 0 25px #0077ff);
-    transition: 9s;
+.didj__logo a{
+    transition: 8s;
 }
 .titleDidj p{
     font-family: "Manrope";
