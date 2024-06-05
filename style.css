@@ -17,6 +17,41 @@ body {
     margin: 0;
     transition: .3s;
 }
+.koolDj{
+    background: url("./img/koolDJ.jpg");
+    background-position-x: center;
+}
+.centerKoolDj{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centerKoolDj_header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.centerKoolDj_whatever {
+    text-align: end;
+}
+.centerKoolDj_archive {
+    text-align: center;
+    padding-top: 30px;
+}
+.centerKoolDj_tg {
+    text-align: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 80%;
+    left: 20%;
+    right: 20%
+}
+
 .darkBody{
     background-color: #1D1C1C;
     color: white;
@@ -222,6 +257,9 @@ footer .traffic__sign{
     }
     blockquote p{
         font-size: 13px;
+    }
+    .koolDj{
+        background-position: left;
     }
 }
 @media (max-width: 405px){
