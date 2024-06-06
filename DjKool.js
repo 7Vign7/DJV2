@@ -1,5 +1,5 @@
 
-const test = document.querySelector("centerKoolDj_header > a")
+const test = document.querySelector(".centerKoolDj_header > a")
 
 function getRandomColor() {
     let color = Math.floor(Math.random() * 247)

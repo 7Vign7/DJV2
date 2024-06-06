@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="953b862a-c476-49b5-aaa6-a9335b6b912d" name="Changes" comment="CollDark)))">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DJ.html" beforeDir="false" afterPath="$PROJECT_DIR$/DJ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjKool.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjKool.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +65,7 @@
       <workItem from="1717484746610" duration="220000" />
       <workItem from="1717592323654" duration="7553000" />
       <workItem from="1717614191430" duration="5067000" />
+      <workItem from="1717665440792" duration="536000" />
     </task>
     <task id="LOCAL-00001" summary="CollDark)))">
       <created>1717105828680</created>

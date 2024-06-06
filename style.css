@@ -51,7 +51,9 @@ body {
     left: 20%;
     right: 20%
 }
-
+.centerKoolDj_header a{
+    transition: .9s;
+}
 .darkBody{
     background-color: #1D1C1C;
     color: white;
