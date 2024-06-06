@@ -29,6 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: .9s;
 }
 .centerKoolDj_header {
     display: flex;
