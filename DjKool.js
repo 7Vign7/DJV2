@@ -13,5 +13,5 @@ function getRandomColor() {
 test.style.filter = `drop-shadow(0 0 25px rgb(${getRandomColor()},${getRandomColor()},${getRandomColor()}))`
 setInterval(()=>{
         test.style.filter = `drop-shadow(0 0 25px rgb(${getRandomColor()},${getRandomColor()},${getRandomColor()}))`
-    },9000
+    },1000
 );
